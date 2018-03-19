@@ -1,0 +1,42 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  font-weight: bold;
+  background-color: #45B39D;
+  padding: 2em;
+}
+
+.navbar li a {
+  color: lightgray;
+  text-decoration: none;
+
+}
+
+.navbar li a:hover {
+  color: black;
+}
+
+footer ul {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  background-color: #45B39D;
+  padding: 2em;
+  color: lightgray;
+}
+
+footer li {
+  padding: 5px;
+}
+
+footer li:hover {
+  color: black;
+}

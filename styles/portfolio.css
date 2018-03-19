@@ -1,0 +1,54 @@
+.heading {
+  text-align: center;
+  border-bottom: 3px groove black;
+}
+
+.heading h1 {
+  font-size: 2.2em;
+  font-weight: lighter;
+}
+
+.heading p {
+  margin-bottom: 5%
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85%;
+  justify-content: center;
+  margin: 5% auto;
+  background-color: silver;
+  background-image: radial-gradient(circle at 100% 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 0 150%, silver 24%, white 25%, white 28%, silver 29%, silver 36%, white 36%, white 40%, transparent 40%, transparent), radial-gradient(circle at 50% 100%, white 10%, silver 11%, silver 23%, white 24%, white 30%, silver 31%, silver 43%, white 44%, white 50%, silver 51%, silver 63%, white 64%, white 71%, transparent 71%, transparent), radial-gradient(circle at 100% 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent), radial-gradient(circle at 0 50%, white 5%, silver 6%, silver 15%, white 16%, white 20%, silver 21%, silver 30%, white 31%, white 35%, silver 36%, silver 45%, white 46%, white 49%, transparent 50%, transparent);
+  background-size: 100px 50px;
+  border: 3px solid #45B39D;
+}
+
+.projects h2 {
+  font-size: 1.3em;
+  font-weight: lighter;
+  text-align: center;
+  text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.projects p {
+  font-size: .8em;
+  background-color: white;
+  border: 1px solid silver;
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 130px;
+  margin-right: 5%;
+  margin-left: 5%;
+}

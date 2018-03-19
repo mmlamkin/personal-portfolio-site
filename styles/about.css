@@ -1,0 +1,53 @@
+.container {
+  display: grid;
+  grid-template: 300px auto 300px / 1fr 1fr;
+  width: 80%;
+  grid-gap: 10px;
+  margin: 0 auto;
+}
+
+.intro {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 80%;
+  justify-content: center;
+}
+
+.intro img {
+  margin: 5%;
+  margin-left: 10%;
+}
+
+.intro p {
+  max-width: 50%;
+  font-style: italic;
+}
+
+.intro h2 {
+  margin-top: 10%;
+}
+
+.dixie {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+.dixie h3 {
+  height: 1em;
+}
+
+.dixie img {
+  max-width: 120px;
+  margin-bottom: 10%;
+  margin-right: 3%;
+}
+
+.dixie p {
+  margin-top: 8%;
+  max-width: 80%;
+}

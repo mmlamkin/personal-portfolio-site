@@ -1,0 +1,48 @@
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 5%;
+}
+
+p {
+  text-align: center;
+}
+
+section {
+  height: 300px;
+  padding-top: 10%;
+}
+
+.menu {
+  display: flex;
+  font-size: 1.5em;
+  background-color: #45B39D;
+  padding-left: 7%;
+  color: lightgray;
+}
+
+ul {
+  width: 100%;
+}
+
+.menu li {
+  list-style-type: circle;
+  padding: 1em;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.menu li:hover {
+  color: black;
+}
+
+.menu li a:hover {
+  color: black;
+}
+
+p:last-child {
+  margin-bottom: 5%
+}
